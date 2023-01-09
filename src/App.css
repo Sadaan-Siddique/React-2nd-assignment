@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+.a{
+    font-size: 40px;
+    font-weight: bold;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul{
+    margin-left: 35%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul li{
+    margin-left: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.img{
+    height: 92vh;
+    color: rgba(255, 255, 255, 0);
+    background: linear-gradient(rgba(0,0,0,0.9) , rgb(0, 0, 0,0.9));
 }
-
-.App-link {
-  color: #61dafb;
+.div{
+    margin-bottom: 2%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (max-width:920px) {
+    .img{
+        height: 80vh;
+    }
+    
+}
+@media (max-width:775px) {
+    .img{
+        height: 60vh;
+    }
+    
+}
+@media (max-width:560px) {
+    .img{
+        height: 45vh;
+    }
+    
+}
+@media (max-width:420px) {
+    .img{
+        height: 35vh;
+    }
+    
+}
+@media (max-width:392px) {
+    .div{
+        display: none;
+    }
+    
+}
+.hd1{
+    margin-top: 100px;
+    font-size: 50px;
+    color: black;
+}
+.product-div{
+    /* border: 2px solid red; */
+    margin: auto;
+    box-shadow: 5px 5px 20px black;
+    height: 50vh;
+    width: 430px;
+    border-radius: 3px;
+    padding: 10px 10px 3px 10px;
+    transition: all;
+    transition-duration: 0.7s;
+    margin-bottom: 10px;
+}
+@media (max-width:465px) {
+    .product-div{
+        width: 300px;
+    }
+    
+}
+@media (max-width:327px) {
+    .product-div{
+        width: 250px;
+        height: 41vh;
+    }
+    
+}
+.product-div:hover{
+    padding: 5px;
+    box-shadow: 5px 5px 20px black,5px 5px 10px black;
+}
+.product-div img{
+    height: 70%;
+    border-radius: 3px;
+    width: 100%;
+}
+.product-div img:hover{
+    opacity: 1;
+}
+.product-div h2{
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.product-div h2:hover{
+    letter-spacing: 0px;
+}
+.product-div button{
+    height: 10%;
+    font-weight: bolder;
+    border-radius: 1px;
+    border: none;
+    letter-spacing: 2px;
+    box-shadow: 0.02px 0.01px 10px black;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.product-div button:hover{
+    border-radius: 1px;
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0px;
+    
 }
