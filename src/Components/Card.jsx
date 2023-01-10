@@ -1,5 +1,5 @@
 import React from 'react'
-import Card_In from './Card_In'
+import CardIn from './Card_In'
 import '../App.css';
 import Product1 from './images/product_1.jpg'
 import Product2 from './images/product_2.jpg'
@@ -77,7 +77,7 @@ function Card() {
     }
   ]
   let newArr = arrCard.map((item)=>{
-    return <Card_In key={item} data = {item}/>
+    return <CardIn key={item} data = {item}/>
   })
   return (
     <>
