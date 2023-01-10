@@ -1,12 +1,36 @@
 .a{
-    font-size: 40px;
+    font-size: 29px;
+    text-transform: uppercase;
+    position: relative;
+    left: 40px;
+    letter-spacing: 0.5px;
     font-weight: bold;
+    transition: all;
+    transition-duration: 0.7s;
+}
+.a:hover{
+    letter-spacing: 0px ;
 }
 nav ul{
     margin-left: 35%;
 }
 nav ul li{
     margin-left: 30px;
+}
+nav form button{
+    background-color: transparent;
+    transition: all;
+    transition-duration: 0.7s;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 0px 0px 3px white;
+    letter-spacing: 2px;
+}
+nav form button:hover{
+    letter-spacing: 0px;
+    color:#292b2c ;
+    background-color: white;
 }
 .img{
     height: 92vh;
@@ -50,13 +74,25 @@ nav ul li{
     margin-top: 100px;
     font-size: 50px;
     color: black;
+    padding: 0px 5px 0px 5px;
+}
+.hd2{
+    letter-spacing: 2px;
+    margin-top: 60px;
+    transition: all;
+    transition-duration: 0.7s;
+    /* display: inline-block; */
+    text-align: center;
+}
+.hd2:hover{
+    letter-spacing: 0px;
 }
 .product-div{
     /* border: 2px solid red; */
     margin: auto;
     box-shadow: 5px 5px 20px black;
     height: 50vh;
-    width: 430px;
+    width: 370px;
     border-radius: 3px;
     padding: 10px 10px 3px 10px;
     transition: all;
@@ -66,6 +102,7 @@ nav ul li{
 @media (max-width:465px) {
     .product-div{
         width: 300px;
+        height: 42vh;
     }
     
 }
@@ -105,7 +142,7 @@ nav ul li{
     letter-spacing: 2px;
     box-shadow: 0.02px 0.01px 10px black;
     transition: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.7s;
 }
 .product-div button:hover{
     border-radius: 1px;

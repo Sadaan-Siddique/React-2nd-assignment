@@ -81,7 +81,7 @@ function Card() {
   })
   return (
     <>
-    <h1 className='hd1 text-center fw-bold'>Here Are Some Products</h1>
+    <h1 name='products' className='hd1 text-center fw-bold'>Here Are Some Products</h1>
     {newArr}
     </>
   )
