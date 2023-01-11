@@ -10,21 +10,21 @@ function MainImages() {
                 <div className="carousel-item active ">
                     <img src={IMG1} className="img d-block w-100" alt="Img 1" />
                     <div class="div carousel-caption d-md-block ">
-                        <h5>First slide </h5>
+                        <h4>First slide </h4>
                         <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={IMG2} className="img d-block w-100" alt="Img 2" />
                     <div class="div carousel-caption d-md-block ">
-                        <h5>Second slide</h5>
+                        <h4>Second slide</h4>
                         <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={IMG3} style={{opacity:'1'}} className="img d-block w-100" alt="Img 3" />
                     <div class="fw-bold div carousel-caption d-md-block ">
-                        <h5>Third slide </h5>
+                        <h4>Third slide </h4>
                         <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
